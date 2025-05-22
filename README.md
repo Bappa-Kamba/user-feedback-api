@@ -30,7 +30,7 @@ Submit user feedback.
   "rating": 5
 }
 ```
-##### Successful response:
+##### ✅ Successful response:
 ```json
 {
   "status": "success",
@@ -42,7 +42,7 @@ Submit user feedback.
   }
 }
 ```
-##### Erroneous response(e.g. invalid rating):
+##### ❌ Erroneous response(e.g. invalid rating):
 ```json
 {
   "status": "error",
@@ -103,7 +103,7 @@ Get all submitted feedback (admin-only).
 
 3. The API will be available at:
 
-`http://localhost:8080`
+  `http://localhost:8080`
 
 You can test the endpoints using Postman, curl, or any HTTP client.
 
